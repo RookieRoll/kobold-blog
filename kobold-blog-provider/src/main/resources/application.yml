@@ -1,0 +1,62 @@
+
+spring:
+  application:
+    name: blog-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        enabled: true
+        register-enabled: true
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+#    username: root
+#    password: qh18723361304
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    druid:
+#      filters: stat
+#      max-active: 20
+#      initial-size: 1
+#      max-wait: 60000
+#      min-idle: 1
+#      time-between-eviction-runs-millis: 60000
+#      min-evictable-idle-time-millis: 300000
+#      validation-query: select 'x'
+#      max-open-prepared-statements: 20
+#      pool-prepared-statements: true
+#      filter:
+#        commons-log:
+#          statement-log-enabled: true
+#          statement-executable-sql-log-enable: true
+
+
+#mybatis:
+#  type-aliases-package: com.kobold.blog.koboldblog.dao
+#  mapper-locations: classpath:mappers/*.xml
+
+#dubbo:
+#  application:
+#    name: blog-provider
+#    qos-port: 33333
+#    qos-enable: false
+#    qos-accept-foreign-ip: false
+#  registry:
+#    address: spring-cloud://localhost
+#  protocol:
+#    name: dubbo
+#    port: -1
+#  scan:
+#    base-packages: koboldblogprovider.koboldblogprovider.service
+#
+#pagehelper:
+#  helper-dialect: mysql
+#  reasonable: true
+#  support-methods-arguments: true
+#  params: count=countSql
+#logging:
+#  level:
+#    koboldblogprovider:
+#      koboldblogprovider:
+#        mapper:DEBUG
+

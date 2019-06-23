@@ -1,0 +1,32 @@
+2019-06-22 18:51:39,905 INFO DEFAULT_GROUP@@blog-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.179:8090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-06-22 18:51:39,909 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@blog-provider, ips: 192.168.31.179:8090_true,
+
+2019-06-22 18:53:59,135 INFO DEFAULT_GROUP@@blog-web {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.179:8091:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-06-22 18:53:59,135 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@blog-web, ips: 192.168.31.179:8091_true,
+
+2019-06-22 18:54:24,240 INFO DEFAULT_GROUP@@blog-web {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.179:8091:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-06-22 18:54:24,240 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@blog-web, ips: 
+
+2019-06-22 18:54:45,337 INFO DEFAULT_GROUP@@blog-web {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.179:8091:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-06-22 18:54:45,337 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@blog-web, ips: 192.168.31.179:8091_true,
+
+2019-06-22 18:57:02,528 INFO DEFAULT_GROUP@@blog-web {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.179:8091:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-06-22 18:57:02,528 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@blog-web, ips: 
+
+2019-06-22 18:57:19,936 INFO DEFAULT_GROUP@@blog-web {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.179:8091:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-06-22 18:57:19,937 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@blog-web, ips: 192.168.31.179:8091_true,
+
+2019-06-22 19:04:03,314 INFO DEFAULT_GROUP@@blog-web {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.179:8091:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-06-22 19:04:03,314 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@blog-web, ips: 
+
+2019-06-22 19:04:03,330 INFO DEFAULT_GROUP@@blog-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.179:8090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-06-22 19:04:03,330 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@blog-provider, ips: 
+

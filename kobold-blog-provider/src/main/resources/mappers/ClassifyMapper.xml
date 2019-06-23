@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="koboldblogprovider.koboldblogprovider.mapper.ClassifyMapper">
+    <resultMap id="classifyResult" type="koboldblogprovider.koboldblogprovider.dao.Classify">
+        <result column="id" property="id"/>
+        <result column="classify_name" property="classifyName"/>
+        <result column="sort" property="sort"/>
+        <result column="create_time" property="createTime"/>
+        <result column="is_deleted" property="isDeleted"/>
+        <result column="is_stopped" property="isStopped"/>
+    </resultMap>
+
+    <insert id="insertUser">
+        insert into classify(id,classify_name,sort,create_time,isDeleted,isStopped)
+         values (#{id},#{classifyName},#{sort},#{createTime},#{is_deleted},#{is_stopped})
+    </insert>
+
+    <update id="updateClassify">
+        update classify set classify_name=#{classifyName} where id=#{id}
+    </update>
+    <select id="getUsedClassify" resultMap="classifyResult">
+        select * from classify where is_deleted=false and is_stopped=false order by sort
+    </select>
+
+    <select id="getAllClassify" resultMap="classifyResult">
+        select * from  classify where is_deleted=false order by sort
+    </select>
+
+    <select id="getClassifyById" resultMap="classifyResult">
+        select * from classify where is_deleted=false and id=#{id}
+    </select>
+
+    <update id="deleteClassifyById">
+        update  classify set is_deleted=false where id=#{id}
+    </update>
+
+    <update id="stopClassifyById">
+        update classify set is_stopped =#{isstopped} where id=#{id}
+    </update>
+
+    <select id="getClassifyReleation" resultMap="classifyResult">
+        select c.* from classify c join classify_blogs cb on cb.classifyid=c.id where c.id=#{id}
+    </select>
+
+</mapper>

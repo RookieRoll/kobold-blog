@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="koboldblogprovider.koboldblogprovider.mapper.UserMapper" >
+    <resultMap id="commonuser" type="koboldblogprovider.koboldblogprovider.dao.User">
+        <result column="id" property="id"/>
+        <result column="username"  property="username"  />
+        <result column="birthday" property="birthday"  />
+        <result column="sex"  property="sex"  />
+        <result column="description" property="description" />
+        <result column="creation_time" property="creationTime" />
+    </resultMap>
+
+    <select id="getUsers" resultMap="commonuser">
+        select * from user
+    </select>
+
+    <select id="findbyUsername" resultMap="commonuser">
+        select * from user where username = #{username} limit 1
+    </select>
+
+    <insert id="insertUser" parameterType="koboldblogprovider.koboldblogprovider.dao.User" >
+        insert into  user(id,username,birthday,sex,description,creation_time,password) values (#{id},#{username},#{birthday},#{sex},#{description},#{creationTime},#{password})
+    </insert>
+</mapper>
