@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="530e66a8-8220-4c5a-98bd-36ac93bc552e" name="Default Changelist" comment="" />
+    <list default="true" id="530e66a8-8220-4c5a-98bd-36ac93bc552e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/BlogsMapper.xml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/koboldblogapi/target/" />
     <ignored path="$PROJECT_DIR$/kobold-blog-web/target/" />
@@ -17,40 +20,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/Blogs.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="204">
-                    <caret line="12" column="32" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="32" />
-                    <folding>
-                      <element signature="e#918#919#0" expanded="true" />
-                      <element signature="e#950#951#0" expanded="true" />
-                      <element signature="e#1463#1464#0" expanded="true" />
-                      <element signature="e#1495#1496#0" expanded="true" />
-                      <element signature="e#1542#1543#0" expanded="true" />
-                      <element signature="e#1577#1578#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/ClassifyMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="107" />
+              <folding>
+                <element signature="n#mapper#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/BlogsMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            <state relative-caret-position="532">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -73,6 +52,9 @@
         <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -106,63 +88,51 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="kobold-blog-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kobold-blog-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
               <item name="kobold-blog-provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kobold-blog-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog-master" type="462c0819:PsiDirectoryNode" />
-              <item name="kobold-blog-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kobold-blog-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
               <item name="kobold-blog-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kobold-blog-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
               <item name="kobold-blog-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kobold-blog-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
               <item name="kobold-blog-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="koboldblogprovider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kobold-blog-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
               <item name="kobold-blog-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="koboldblogprovider" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kobold-blog-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
               <item name="kobold-blog-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -171,16 +141,16 @@
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kobold-blog-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
               <item name="kobold-blog-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kobold-blog-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
               <item name="kobold-blog-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -191,6 +161,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,8 +173,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\kobold-blog\kobold-blog-provider\src\main\resources\mappers" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -216,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.KoboldBlogWebApplication">
+  <component name="RunManager" selected="Spring Boot.KoboldBlogProviderApplication">
     <configuration name="KoboldBlogProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="kobold-blog-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="koboldblogprovider.koboldblogprovider.KoboldBlogProviderApplication" />
@@ -245,17 +222,18 @@
       <workItem from="1561126859035" duration="267000" />
       <workItem from="1561179618142" duration="3366000" />
       <workItem from="1561276644132" duration="6060000" />
+      <workItem from="1561291350213" duration="1091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9693000" />
+    <option name="totallyTimeSpent" value="10784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1108742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19189766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -263,7 +241,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33296824" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33188722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -399,15 +377,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/ClassifyMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="107" />
+          <folding>
+            <element signature="n#mapper#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/BlogsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        <state relative-caret-position="532">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
