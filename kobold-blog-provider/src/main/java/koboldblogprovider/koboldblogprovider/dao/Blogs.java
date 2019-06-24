@@ -12,6 +12,7 @@ public class Blogs {
     private BlogStatus blogStatus;
     private Timestamp modifyTime;
     private boolean isDeleted;
+    private String userId;
 
     public String getId() {
         return id;
@@ -76,6 +77,14 @@ public class Blogs {
 
     public void setDeleted(boolean deleted) {
         isDeleted = deleted;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 }
 

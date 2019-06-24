@@ -9,6 +9,7 @@ public class Classify {
     private Timestamp createTime;
     private boolean isDeleted;
     private boolean isStopped;
+    private String userId;
 
     public String getId() {
         return id;
@@ -57,5 +58,13 @@ public class Classify {
 
     public void setDeleted(boolean deleted) {
         isDeleted = deleted;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 }

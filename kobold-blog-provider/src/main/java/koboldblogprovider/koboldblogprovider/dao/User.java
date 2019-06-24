@@ -1,6 +1,7 @@
 package koboldblogprovider.koboldblogprovider.dao;
 
 import dto.UserDto;
+import org.springframework.beans.BeanUtils;
 
 import java.sql.Timestamp;
 import java.util.UUID;

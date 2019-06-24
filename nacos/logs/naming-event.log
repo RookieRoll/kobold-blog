@@ -30,3 +30,15 @@
 
 2019-06-22 19:04:03,330 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@blog-provider, ips: 
 
+2019-06-23 20:55:23,741 INFO DEFAULT_GROUP@@blog-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.179:8090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-06-23 20:55:23,741 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@blog-provider, ips: 192.168.31.179:8090_true,
+
+2019-06-23 20:55:30,969 INFO DEFAULT_GROUP@@blog-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.179:8090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-06-23 20:55:30,969 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@blog-provider, ips: 
+
+2019-06-23 20:56:18,510 INFO DEFAULT_GROUP@@blog-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.179:8090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-06-23 20:56:18,510 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@blog-provider, ips: 192.168.31.179:8090_true,
+

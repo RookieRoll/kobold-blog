@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="530e66a8-8220-4c5a-98bd-36ac93bc552e" name="Default Changelist" comment="">
+    <list default="true" id="530e66a8-8220-4c5a-98bd-36ac93bc552e" name="Default Changelist" comment="修复报错">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/BlogsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/Blogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/Blogs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/Classify.java" beforeDir="false" afterPath="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/Classify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/BlogsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/BlogsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/ClassifyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/ClassifyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/bin/logs/access_log.2019-06-23.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/bin/logs/access_log.2019-06-23.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/config-client-request.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-client-request.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/config-dump.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-dump.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/config-fatal.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-fatal.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/config-memory.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-memory.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/config-pull-check.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-pull-check.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/config-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/config-trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/nacos.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/nacos.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/naming-ephemeral.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-ephemeral.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/naming-event.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-event.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/naming-performance.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-performance.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/naming-push.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-push.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/naming-raft.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-raft.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/naming-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-server.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/koboldblogapi/target/" />
@@ -25,20 +45,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/ClassifyMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="107" />
+            <state relative-caret-position="663">
+              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/BlogsMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" selection-start-line="37" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/Blogs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="25" />
               <folding>
-                <element signature="n#mapper#0;n#!!top" />
+                <element signature="e#1637#1638#0" expanded="true" />
+                <element signature="e#1666#1667#0" expanded="true" />
+                <element signature="e#1710#1711#0" expanded="true" />
+                <element signature="e#1746#1747#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/BlogsMapper.xml">
+        <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="663">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="335" column="23" selection-start-line="335" selection-start-column="23" selection-end-line="335" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/Classify.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="25" />
+              <folding>
+                <element signature="e#1223#1224#0" expanded="true" />
+                <element signature="e#1252#1253#0" expanded="true" />
+                <element signature="e#1296#1297#0" expanded="true" />
+                <element signature="e#1332#1333#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,10 +128,11 @@
         <option value="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/JwtTokenUtil.java" />
         <option value="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/AccountController.java" />
         <option value="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/BlogStatus.java" />
-        <option value="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/Classify.java" />
         <option value="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/Blogs.java" />
+        <option value="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/Classify.java" />
         <option value="$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/ClassifyMapper.xml" />
         <option value="$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/BlogsMapper.xml" />
+        <option value="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/User.java" />
       </list>
     </option>
   </component>
@@ -88,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,6 +205,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="koboldblogprovider" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="kobold-blog-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="koboldblogprovider" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -161,7 +238,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -222,18 +298,34 @@
       <workItem from="1561126859035" duration="267000" />
       <workItem from="1561179618142" duration="3366000" />
       <workItem from="1561276644132" duration="6060000" />
-      <workItem from="1561291350213" duration="1091000" />
+      <workItem from="1561291350213" duration="1867000" />
+      <workItem from="1561377916124" duration="2301000" />
     </task>
+    <task id="LOCAL-00001" summary="修复报错">
+      <created>1561294414751</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561294414751</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修复报错">
+      <created>1561294559939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561294559939</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10784000" />
+    <option name="totallyTimeSpent" value="13861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19189766" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19402985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -241,7 +333,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33188722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33188722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,6 +358,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修复报错" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复报错" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/AccountController.java">
@@ -341,54 +437,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/Classify.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/Blogs.java">
+    <entry file="file://$PROJECT_DIR$/kobold-blog-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/Classify.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="25" />
           <folding>
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#1463#1464#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/ClassifyMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="107" />
-          <folding>
-            <element signature="n#mapper#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="663">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/BlogsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="697">
+          <caret line="41" selection-start-line="37" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/Blogs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
+            <element signature="e#1746#1747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="335" column="23" selection-start-line="335" selection-start-column="23" selection-end-line="335" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
