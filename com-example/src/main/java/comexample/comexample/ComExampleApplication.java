@@ -1,9 +1,13 @@
 package comexample.comexample;
 
 
+import Utils.BeanMapperUtils;
 import comexample.comexample.controller.ConvertYmlToProperties;
+import org.springframework.beans.BeanUtils;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cglib.beans.BeanCopier;
+import org.springframework.cglib.beans.BeanMap;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.yaml.snakeyaml.Yaml;
 
@@ -20,7 +24,11 @@ public class ComExampleApplication {
 
 	public static void main(String[] args) throws IOException {
 		//SpringApplication.run(ComExampleApplication.class, args);
-		ConvertYmlToProperties.convert();
+		//ConvertYmlToProperties.convert();
+
 	}
 
+
+
 }
+

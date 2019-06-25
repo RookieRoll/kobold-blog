@@ -1,4 +1,4 @@
-package koboldblogprovider.koboldblogprovider.dao;
+package dto;
 
 public enum BlogStatus{
 

@@ -1,13 +1,8 @@
-package koboldblogprovider.koboldblogprovider.dao;
-
-import Utils.BeanMapperUtils;
-import dto.BlogStatus;
-import dto.BlogsDto;
+package dto;
 
 import java.sql.Timestamp;
 
-public class Blogs {
-
+public class BlogsDto {
 	private String id;
 	private String title;
 	private String content;
@@ -90,14 +85,4 @@ public class Blogs {
 	public void setUserId(String userId) {
 		this.userId = userId;
 	}
-
-	public BlogsDto convertToDto() {
-		return BeanMapperUtils.mapper(this, BlogsDto.class);
-	}
-
-	public static Blogs convertToDao(BlogsDto dto) {
-		return BeanMapperUtils.mapper(dto, Blogs.class);
-	}
 }
-
-

@@ -1,5 +1,8 @@
 package koboldblogprovider.koboldblogprovider.dao;
 
+import Utils.BeanMapperUtils;
+import dto.ClassifyDto;
+
 import java.sql.Timestamp;
 
 public class Classify {
@@ -66,5 +69,13 @@ public class Classify {
 
     public void setUserId(String userId) {
         this.userId = userId;
+    }
+
+    public ClassifyDto convertToDto() {
+        return BeanMapperUtils.mapper(this, ClassifyDto.class);
+    }
+
+    public static Classify convertToDao(ClassifyDto dto) {
+        return BeanMapperUtils.mapper(dto, Classify.class);
     }
 }

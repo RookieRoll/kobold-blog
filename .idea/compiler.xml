@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="kobold-blog-provider" />
+        <module name="kobold-blog-web" />
+        <module name="koboldblogapi" />
         <module name="kobold-blog-api" />
         <module name="com-example" />
-        <module name="koboldblogapi" />
-        <module name="kobold-blog-web" />
-        <module name="kobold-blog-provider" />
+        <module name="koboldblogcommon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="kobold-blog-api" options="" />
       <module name="kobold-blog-provider" options="-parameters" />
       <module name="kobold-blog-web" options="-parameters" />
+      <module name="koboldblogcommon" options="-parameters" />
       <module name="kobolgblog" options="-parameters" />
     </option>
   </component>
