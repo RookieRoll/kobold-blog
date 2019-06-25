@@ -98,6 +98,7 @@ public class Blogs {
 	public static Blogs convertToDao(BlogsDto dto) {
 		return BeanMapperUtils.mapper(dto, Blogs.class);
 	}
+
 }
 
 
