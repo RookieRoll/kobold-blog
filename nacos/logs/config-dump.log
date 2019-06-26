@@ -2,3 +2,7 @@
 
 2019-06-25 21:27:21,890 INFO [dump-all-ok] blog-provider.properties+DEFAULT_GROUP, 1561200799213, length=1851, md5=7493187a4cbf707e1ff41f49bf0b9cc1
 
+2019-06-26 15:54:25,677 INFO [dump-all-ok] blog-web.properties+DEFAULT_GROUP, 1561469293637, length=824, md5=67835e3fdda9a61e39e317537583b009
+
+2019-06-26 15:54:25,678 INFO [dump-all-ok] blog-provider.properties+DEFAULT_GROUP, 1561200799213, length=1851, md5=7493187a4cbf707e1ff41f49bf0b9cc1
+
