@@ -36,7 +36,7 @@ public class AccountController {
 	private JwtTokenUtil jwtTokenUtil;
 	@Autowired
 	private JwtUserDetailsService userDetailsService;
-	@Reference
+	@Autowired
 	private UserService userService;
 	@Autowired
 	private PasswordEncoder bcryptEncoder;

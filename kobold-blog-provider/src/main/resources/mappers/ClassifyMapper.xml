@@ -11,36 +11,36 @@
         <result column="user_id" property="userId"/>
     </resultMap>
 
-    <insert id="insertUser">
-        insert into classify(id,classify_name,sort,create_time,isDeleted,isStopped,user_id)
-         values (#{id},#{classifyName},#{sort},#{createTime},#{is_deleted},#{is_stopped},#{userId})
-    </insert>
+<!--    <insert id="insertUser">-->
+<!--        insert into classify(id,classify_name,sort,create_time,isDeleted,isStopped,user_id)-->
+<!--         values (#{id},#{classifyName},#{sort},#{createTime},#{is_deleted},#{is_stopped},#{userId})-->
+<!--    </insert>-->
 
-    <update id="updateClassify">
-        update classify set classify_name=#{classifyName} where id=#{id} and user_id=#{userId}
-    </update>
-    <select id="getUsedClassify" resultMap="classifyResult">
-        select * from classify where is_deleted=false and is_stopped=false and user_id=#{userId} order by sort
-    </select>
+<!--    <update id="updateClassify">-->
+<!--        update classify set classify_name=#{classifyName} where id=#{id} and user_id=#{userId}-->
+<!--    </update>-->
+<!--    <select id="getUsedClassify" resultMap="classifyResult">-->
+<!--        select * from classify where is_deleted=false and is_stopped=false and user_id=#{userId} order by sort-->
+<!--    </select>-->
 
-    <select id="getAllClassify" resultMap="classifyResult">
-        select * from  classify where is_deleted=false and user_id=#{userId} order by sort
-    </select>
+<!--    <select id="getAllClassify" resultMap="classifyResult">-->
+<!--        select * from  classify where is_deleted=false and user_id=#{userId} order by sort-->
+<!--    </select>-->
 
-    <select id="getClassifyById" resultMap="classifyResult">
-        select * from classify where is_deleted=false and id=#{id} and user_id=#{userId}
-    </select>
+<!--    <select id="getClassifyById" resultMap="classifyResult">-->
+<!--        select * from classify where is_deleted=false and id=#{id} and user_id=#{userId}-->
+<!--    </select>-->
 
-    <update id="deleteClassifyById">
-        update  classify set is_deleted=false where id=#{id} and user_id=#{userId}
-    </update>
+<!--    <update id="deleteClassifyById">-->
+<!--        update  classify set is_deleted=false where id=#{id} and user_id=#{userId}-->
+<!--    </update>-->
 
-    <update id="stopClassifyById">
-        update classify set is_stopped =#{isstopped} where id=#{id} and user_id=#{userId}
-    </update>
+<!--    <update id="stopClassifyById">-->
+<!--        update classify set is_stopped =#{isstopped} where id=#{id} and user_id=#{userId}-->
+<!--    </update>-->
 
-    <select id="getClassifyReleation" resultMap="classifyResult">
-        select c.* from classify c join classify_blogs cb on cb.classifyid=c.id where c.id=#{id} and user_id=#{userId}
-    </select>
+<!--    <select id="getClassifyReleation" resultMap="classifyResult">-->
+<!--        select c.* from classify c join classify_blogs cb on cb.classifyid=c.id where c.id=#{id} and user_id=#{userId}-->
+<!--    </select>-->
 
 </mapper>

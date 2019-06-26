@@ -3,6 +3,7 @@ package koboldblogweb.koboldblogweb.controller;
 import dto.UserDto;
 import koboldblogweb.koboldblogweb.viewmodel.response.CommonResponse;
 import org.apache.dubbo.config.annotation.Reference;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.http.ResponseEntity;
@@ -16,7 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/user")
 public class UserController {
-	@Reference
+	@Autowired
 	private UserService userService;
 	@Value("${username}")
 	private String name;

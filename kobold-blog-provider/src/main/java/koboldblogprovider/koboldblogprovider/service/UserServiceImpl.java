@@ -32,7 +32,7 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	@Transactional
+	@Transactional(rollbackFor = Exception.class)
 	public Boolean insertUser(UserDto userDto) {
 		userDto.setId(UUID.randomUUID().toString());
 		User user=userMapper.findbyUsername(userDto.getUsername());

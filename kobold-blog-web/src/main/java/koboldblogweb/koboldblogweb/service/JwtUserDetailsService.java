@@ -14,7 +14,7 @@ import service.UserService;
 import java.util.ArrayList;
 @Service
 public class JwtUserDetailsService implements UserDetailsService {
-	@Reference
+	@Autowired
 	private UserService userService;
 
 	@Autowired
