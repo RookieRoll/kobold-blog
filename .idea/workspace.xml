@@ -1,34 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="530e66a8-8220-4c5a-98bd-36ac93bc552e" name="Default Changelist" comment="更新框架版本">
+    <list default="true" id="530e66a8-8220-4c5a-98bd-36ac93bc552e" name="Default Changelist" comment="更改了一些东西 待测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/mapper/BlogsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/mapper/BlogsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/BlogsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/BlogsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/ClassifyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/ClassifyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kobold-blog-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kobold-blog-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/JwtUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/JwtUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/bin/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/bin/derby.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c490.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c490.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c4a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c4a1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c4f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c4f0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c501.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c501.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c511.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c511.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c521.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c521.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c531.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c531.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c60.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c740.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c740.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c760.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c760.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c81.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c90.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/logs/config-pull-check.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-pull-check.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/logs/naming-event.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-event.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/config-memory.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-memory.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/nacos.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/nacos.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/naming-ephemeral.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-ephemeral.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/naming-performance.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-performance.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/naming-push.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-push.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/naming-raft.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-raft.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/naming-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-server.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/koboldblogapi/target/" />
@@ -52,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/JwtUserDetailsService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -70,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -79,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -109,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/kobold-blog-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="333">
-              <caret line="67" column="55" lean-forward="true" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
+              <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -138,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#320#321#0" expanded="true" />
@@ -496,11 +477,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561454874095</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更改了一些东西 待测试">
+      <created>1561542090033</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561542090033</updated>
+    </task>
+    <task id="LOCAL-00005" summary="更改了一些东西 待测试">
+      <created>1561556644414</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561556644414</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26947000" />
+    <option name="totallyTimeSpent" value="28419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -543,7 +538,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修复报错" />
     <MESSAGE value="添加mapperutils" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加mapperutils" />
+    <MESSAGE value="更改了一些东西 待测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改了一些东西 待测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -854,7 +850,7 @@
     <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/JwtUserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -868,7 +864,7 @@
     <entry file="file://$PROJECT_DIR$/kobold-blog-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
-          <caret line="67" column="55" lean-forward="true" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
+          <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -892,14 +888,14 @@
     <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -912,8 +908,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#320#321#0" expanded="true" />
