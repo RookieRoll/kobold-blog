@@ -14,13 +14,13 @@ public class UserServiceImpl implements UserService {
 	private UserService userService;
 
 	@Override
-	@Cacheable
+	@Cacheable("getuserlist")
 	public List<UserDto> getUserList() {
 		return userService.getUserList();
 	}
 
 	@Override
-	@Cacheable
+	@Cacheable("finduser")
 	public UserDto findbyUsername(String username) {
 		return userService.findbyUsername(username);
 	}

@@ -30,6 +30,9 @@ public class JwtTokenUtil implements Serializable {
 		return getClaimFromToken(token, Claims::getExpiration);
 	}
 
+	public String getUserIdFromToken(String token){
+		return getClaimFromToken(token,Claims::getId);
+	}
 	//check if the token has expired
 	private Boolean isTokenExpired(String token) {
 		final Date expiration = getExpirationDateFromToken(token);

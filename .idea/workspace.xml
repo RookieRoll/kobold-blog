@@ -3,9 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="530e66a8-8220-4c5a-98bd-36ac93bc552e" name="Default Changelist" comment="更改了一些东西 待测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/JwtTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/bin/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/bin/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c740.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c740.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c760.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c760.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/config-client-request.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-client-request.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/config-dump.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-dump.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/config-fatal.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-fatal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/logs/config-memory.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-memory.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/config-pull-check.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-pull-check.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/config-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/config-trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-trace.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/logs/nacos.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/nacos.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/logs/naming-ephemeral.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-ephemeral.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/naming-event.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-event.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/logs/naming-performance.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-performance.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/logs/naming-push.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-push.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/logs/naming-raft.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-raft.log" afterDir="false" />
@@ -39,19 +57,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koboldblogapi/src/main/java/service/UserService.java">
+        <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/JwtAuthenticationEntryPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/service/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="75">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -59,38 +68,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.8.RELEASE/spring-tx-5.1.8.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/RedisConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="60" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="60" />
+            <state relative-caret-position="150">
+              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kobold-blog-web/pom.xml">
+        <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/JwtRequestFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
+            <state relative-caret-position="345">
+              <caret line="54" column="32" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -99,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/RedisCacheConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <caret line="16" column="100" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="100" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,28 +100,62 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/AccountController.java">
+        <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="44" column="84" selection-start-line="44" selection-start-column="84" selection-end-line="44" selection-end-column="84" />
+            <state relative-caret-position="330">
+              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/UserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/JwtTokenUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="211">
+              <caret line="57" column="77" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="77" />
+              <folding>
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1047#1048#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/ClassifyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/KoboldBlogWebApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -156,7 +182,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/ClassifyController.java" />
-        <option value="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/JwtTokenUtil.java" />
         <option value="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/BlogStatus.java" />
         <option value="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/dao/User.java" />
         <option value="$PROJECT_DIR$/koboldblogapi/src/main/java/dto/BlogsDto.java" />
@@ -171,7 +196,6 @@
         <option value="$PROJECT_DIR$/com-example/pom.xml" />
         <option value="$PROJECT_DIR$/kobold-blog-provider/pom.xml" />
         <option value="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/kobold-blog-web/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/KoboldBlogWebApplication.java" />
         <option value="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/RedisCacheConfig.java" />
         <option value="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/UserService.java" />
@@ -180,10 +204,12 @@
         <option value="$PROJECT_DIR$/kobold-blog-provider/src/main/resources/mappers/ClassifyMapper.xml" />
         <option value="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/AccountController.java" />
         <option value="$PROJECT_DIR$/kobold-blog-web/pom.xml" />
-        <option value="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/JwtUserDetailsService.java" />
         <option value="$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/kobold-blog-web/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/JwtTokenUtil.java" />
       </list>
     </option>
   </component>
@@ -222,7 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -252,83 +277,7 @@
             <path>
               <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="kobold-blog-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="kobold-blog-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="kobold-blog-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="kobold-blog-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="kobold-blog-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="kobold-blog-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="koboldblogweb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="kobold-blog-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="koboldblogweb" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="kobold-blog-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="koboldblogweb" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="kobold-blog-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="koboldblogweb" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kobold-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="kobold-blog-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="kobold-blog-provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kobold-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -369,6 +318,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -455,6 +405,7 @@
       <workItem from="1561291350213" duration="1867000" />
       <workItem from="1561377916124" duration="2301000" />
       <workItem from="1561468520629" duration="1578000" />
+      <workItem from="1561685795521" duration="1710000" />
     </task>
     <task id="LOCAL-00001" summary="修复报错">
       <created>1561294414751</created>
@@ -495,13 +446,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28419000" />
+    <option name="totallyTimeSpent" value="30129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19402985" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19402985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -510,7 +462,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3314978" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39867842" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39867842" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -522,12 +474,14 @@
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32929516" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.6034115" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.20628998" />
       <window_info anchor="right" id="Bean Validation" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
@@ -551,12 +505,6 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/UserServiceImpl.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/RedisCacheConfig.java</url>
           <line>16</line>
           <properties />
@@ -568,23 +516,10 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/UserServiceImpl.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/JwtTokenUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="39" column="51" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/koboldblogapi/src/main/java/service/ClassifyService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -744,20 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/KoboldBlogWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -776,16 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/ClassifyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,44 +748,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/RedisCacheConfig.java">
+    <entry file="file://$PROJECT_DIR$/koboldblogapi/src/main/java/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/JwtUserDetailsService.java">
+    <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/AccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="44" column="84" selection-start-line="44" selection-start-column="84" selection-end-line="44" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kobold-blog-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="525">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
@@ -885,39 +769,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kobold-blog-provider/src/main/java/koboldblogprovider/koboldblogprovider/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koboldblogapi/src/main/java/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/kobold-blog-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="1005">
+          <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="44" column="84" selection-start-line="44" selection-start-column="84" selection-end-line="44" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/org/springframework/cache/annotation/Cacheable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/KoboldBlogWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/JwtUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/JwtAuthenticationEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="330">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/RedisCacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="100" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/ClassifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/JwtRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kobold-blog-web/src/main/java/koboldblogweb/koboldblogweb/config/JwtTokenUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="57" column="77" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="77" />
+          <folding>
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
           </folding>
         </state>
       </provider>
