@@ -20,6 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="com-example" options="-parameters" />
       <module name="kobold-blog-api" options="" />
+      <module name="kobold-blog-common" options="-parameters" />
       <module name="kobold-blog-provider" options="-parameters" />
       <module name="kobold-blog-web" options="-parameters" />
       <module name="koboldblogcommon" options="-parameters" />

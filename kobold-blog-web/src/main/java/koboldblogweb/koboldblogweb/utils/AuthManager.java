@@ -31,7 +31,7 @@ public class AuthManager {
 	@Autowired
 	private WebApplicationContext applicationContext;
 
-	@PostConstruct
+	//@PostConstruct
 	private void init() {
 		ResourcePatternResolver resourcePatternResolver = new PathMatchingResourcePatternResolver();
 		final String RESOURCE_PATTERN = "/**/*.class";
@@ -71,12 +71,21 @@ public class AuthManager {
 			System.out.println("读取class失败v :" + e);
 		}
 	}
-
-	public String getAuthCode(String key) {
+	@PostConstruct
+	private void initMethod(){
 		RequestMappingHandlerMapping mapping=applicationContext.getBean(RequestMappingHandlerMapping.class);
 		Map<RequestMappingInfo, HandlerMethod> map = mapping.getHandlerMethods();
-		//map.keySet().stream().filter(m->m.getPatternsCondition().getPatterns())
-		//TODO 根据访问的url获取class和method
+		for(RequestMappingInfo info:map.keySet()){
+			String path=info.getPatternsCondition().getPatterns().iterator().next();
+			HandlerMethod method=map.get(info);
+			AuthTypeAnnotation annotation=method.getMethodAnnotation(AuthTypeAnnotation.class);
+			if(annotation!=null){
+				authMap.put(path,annotation.value());
+			}
+		}
+	}
+
+	public String getAuthCode(String key) {
 		return authMap.get(key);
 	}
 }
