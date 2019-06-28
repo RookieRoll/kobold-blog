@@ -1,5 +1,6 @@
 package koboldblogweb.koboldblogweb.controller;
 
+import koboldblogweb.koboldblogweb.annotations.AuthTypeAnnotation;
 import koboldblogweb.koboldblogweb.utils.UserUtils;
 import koboldblogweb.koboldblogweb.viewmodel.request.ClassifyModifyRequest;
 import koboldblogweb.koboldblogweb.viewmodel.response.CommonResponse;
@@ -23,8 +24,21 @@ public class ClassifyController {
 	}
 
 	@GetMapping("/getclassify")
+	@AuthTypeAnnotation("Admin")
 	public CommonResponse<?> getUsedClassify() {
 		return CommonResponse.ok(classifyService.getUsedClassify(userUtils.getUserId()));
 	}
+
+	@GetMapping("/getallClassifies")
+	@AuthTypeAnnotation("Admin")
+	public CommonResponse<?>  getAllClassify(){
+		return CommonResponse.ok(classifyService.getAllClassify(userUtils.getUserId()));
+	}
+
+	@PostMapping("/getclassifybyid")
+	public CommonResponse<?> getClassifyById(@RequestBody  String id){
+		return CommonResponse.ok(classifyService.getClassifyById(id,userUtils.getUserId()));
+	}
+
 
 }

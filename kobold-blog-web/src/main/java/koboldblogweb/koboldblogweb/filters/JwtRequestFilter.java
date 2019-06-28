@@ -1,7 +1,8 @@
-package koboldblogweb.koboldblogweb.config;
+package koboldblogweb.koboldblogweb.filters;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import koboldblogweb.koboldblogweb.service.JwtUserDetailsService;
+import koboldblogweb.koboldblogweb.utils.AuthManager;
 import koboldblogweb.koboldblogweb.utils.JwtTokenUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -28,6 +29,9 @@ public class JwtRequestFilter extends OncePerRequestFilter {
 
 	@Autowired
 	private JwtTokenUtil jwtTokenUtil;
+
+	@Autowired
+	private AuthManager authManager;
 
 	@Override
 	protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
@@ -57,8 +61,17 @@ public class JwtRequestFilter extends OncePerRequestFilter {
 				usernamePasswordAuthenticationToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
 				SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
 			}
+			checkAuth(request,userDetails);
+
 		}
 		filterChain.doFilter(request,response);
+	}
 
+	private void checkAuth(HttpServletRequest request, UserDetails userDetails) {
+		String controllerName=request.getServletPath();
+//		if(controllerName.contains("/api/")){
+//			controllerName=controllerName.replace("/api/","");
+//		}
+		System.out.println(authManager.getAuthCode(controllerName)+userDetails);
 	}
 }
