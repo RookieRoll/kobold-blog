@@ -1,12 +1,12 @@
 package koboldblogprovider.koboldblogprovider.dao;
 
-import Utils.BeanMapperUtils;
+import utils.BeanMapperUtils;
 import dto.BlogStatus;
 import dto.BlogsDto;
 
 import java.sql.Timestamp;
 
-public class Blogs {
+public class Blogs extends BaseDao {
 
 	private String id;
 	private String title;
@@ -91,13 +91,7 @@ public class Blogs {
 		this.userId = userId;
 	}
 
-	public BlogsDto convertToDto() {
-		return BeanMapperUtils.mapper(this, BlogsDto.class);
-	}
 
-	public static Blogs convertToDao(BlogsDto dto) {
-		return BeanMapperUtils.mapper(dto, Blogs.class);
-	}
 
 }
 

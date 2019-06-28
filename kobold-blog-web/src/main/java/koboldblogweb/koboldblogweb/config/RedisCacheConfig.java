@@ -14,7 +14,7 @@ public class RedisCacheConfig {
     @Bean
     public RedisCacheManager cacheManager(RedisTemplate redisTemplate) {
         //全局redis缓存过期时间
-        RedisCacheConfiguration redisCacheConfiguration = RedisCacheConfiguration.defaultCacheConfig().entryTtl(Duration.ofHours(1));
+        RedisCacheConfiguration redisCacheConfiguration = RedisCacheConfiguration.defaultCacheConfig().entryTtl(Duration.ofMinutes(3));
         RedisCacheWriter redisCacheWriter = RedisCacheWriter.nonLockingRedisCacheWriter(redisTemplate.getConnectionFactory());
         return new RedisCacheManager(redisCacheWriter, redisCacheConfiguration);
     }

@@ -2,7 +2,7 @@ package dto;
 
 import java.sql.Timestamp;
 
-public class BlogsDto {
+public class BlogsDto extends BaseDto {
 	private String id;
 	private String title;
 	private String content;

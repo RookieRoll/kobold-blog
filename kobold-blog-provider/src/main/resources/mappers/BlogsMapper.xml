@@ -32,11 +32,11 @@
         update blogs set is_deleted=#{isDeleted}, modify_time=now() where id=#{id} and user_id=#{userId}
     </update>
 
-    <insert id="insertBlog">
-        insert into blogs (id,title,content,sub_content,blog_status,modify_time,create_time,isDeleted,user_id)
+    <insert id="insertBlog" parameterType="koboldblogprovider.koboldblogprovider.dao.Blogs">
+        insert into blogs (id,title,content,sub_content,blog_status,modify_time,create_time,is_deleted,user_id)
         values (#{id},#{title},#{content},#{subContent},#{blogStatus},#{modifyTime},#{createTime},#{isDeleted},#{userId})
     </insert>
-    <update id="updateBlog">
+    <update id="updateBlog" parameterType="koboldblogprovider.koboldblogprovider.dao.Blogs">
         update blogs set titile=#{title},
         constent=#{content},
         sub_content=#{subcontent},

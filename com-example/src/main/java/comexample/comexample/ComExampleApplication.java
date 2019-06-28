@@ -1,22 +1,7 @@
 package comexample.comexample;
 
 
-import Utils.BeanMapperUtils;
-import comexample.comexample.controller.ConvertYmlToProperties;
-import org.springframework.beans.BeanUtils;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cglib.beans.BeanCopier;
-import org.springframework.cglib.beans.BeanMap;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.yaml.snakeyaml.Yaml;
-
 import java.io.IOException;
-import java.io.InputStream;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.Map;
-import java.util.TreeMap;
 
 //@SpringBootApplication
 //@EnableDiscoveryClient

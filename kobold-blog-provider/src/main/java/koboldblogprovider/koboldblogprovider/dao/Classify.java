@@ -1,11 +1,12 @@
 package koboldblogprovider.koboldblogprovider.dao;
 
-import Utils.BeanMapperUtils;
+import dto.BaseDto;
+import utils.BeanMapperUtils;
 import dto.ClassifyDto;
 
 import java.sql.Timestamp;
 
-public class Classify {
+public class Classify extends BaseDao {
     private String id;
     private String classifyName;
     private int sort;
@@ -71,11 +72,4 @@ public class Classify {
         this.userId = userId;
     }
 
-    public ClassifyDto convertToDto() {
-        return BeanMapperUtils.mapper(this, ClassifyDto.class);
-    }
-
-    public static Classify convertToDao(ClassifyDto dto) {
-        return BeanMapperUtils.mapper(dto, Classify.class);
-    }
 }

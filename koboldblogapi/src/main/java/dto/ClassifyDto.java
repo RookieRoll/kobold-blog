@@ -2,7 +2,7 @@ package dto;
 
 import java.sql.Timestamp;
 
-public class ClassifyDto {
+public class ClassifyDto extends BaseDto {
 	private String id;
 	private String classifyName;
 	private int sort;

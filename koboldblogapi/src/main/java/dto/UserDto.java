@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.UUID;
 
-public class UserDto implements Serializable {
+public class UserDto extends  BaseDto {
 	private String id;
 	private String username;
 	private Timestamp birthday;

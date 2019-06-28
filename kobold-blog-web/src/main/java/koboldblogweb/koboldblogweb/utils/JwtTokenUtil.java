@@ -1,4 +1,4 @@
-package koboldblogweb.koboldblogweb.config;
+package koboldblogweb.koboldblogweb.utils;
 
 import dto.UserDto;
 import io.jsonwebtoken.Claims;
@@ -18,8 +18,13 @@ import java.util.function.Function;
 public class JwtTokenUtil implements Serializable {
 	public static final long JWT_TOKEN_VALIDITY=5*60*60;
 
-	private SecretKey key = Keys.secretKeyFor(SignatureAlgorithm.HS512);
+	private SecretKey key =getKey();// Keys.secretKeyFor(SignatureAlgorithm.HS512);
 
+	private SecretKey getKey(){
+		byte[] bytes="koboldwebblogkeykoboldwebblogkeykoboldwebblogkey".getBytes();
+		SecretKey key=Keys.hmacShaKeyFor(bytes);
+		return key;
+	}
 
 	public String getUsernameFromToken(String token) {
 		return getClaimFromToken(token,Claims::getSubject);
