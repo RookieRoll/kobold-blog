@@ -31,46 +31,6 @@ public class AuthManager {
 	@Autowired
 	private WebApplicationContext applicationContext;
 
-	//@PostConstruct
-	private void init() {
-		ResourcePatternResolver resourcePatternResolver = new PathMatchingResourcePatternResolver();
-		final String RESOURCE_PATTERN = "/**/*.class";
-		// 扫描的包名
-		final String BASE_PACKAGE = "koboldblogweb.koboldblogweb.controller";
-		Map<String, Class<?>> classCache = new HashMap<>();
-		try {
-			String pattern = ResourcePatternResolver.CLASSPATH_ALL_URL_PREFIX + ClassUtils.convertClassNameToResourcePath(BASE_PACKAGE)
-					+ RESOURCE_PATTERN;
-			Resource[] resources = resourcePatternResolver.getResources(pattern);
-			MetadataReaderFactory readerFactory = new CachingMetadataReaderFactory(resourcePatternResolver);
-			for (Resource resource : resources) {
-				if (resource.isReadable()) {
-					MetadataReader reader = readerFactory.getMetadataReader(resource);
-					//扫描到的class
-					String className = reader.getClassMetadata().getClassName();
-					Class<?> clazz = Class.forName(className);
-					AuthTypeAnnotation clazzAnnotation = clazz.getAnnotation(AuthTypeAnnotation.class);
-					if (clazzAnnotation != null) {
-						String value = clazzAnnotation.value();
-						authMap.put(clazz.getSimpleName(), value);
-					} else {
-						//判断是否有指定注解
-						Method[] methods = clazz.getDeclaredMethods();
-						List<Method> allowMethod = Arrays.stream(methods).filter(m -> m.getAnnotation(AuthTypeAnnotation.class) != null).collect(Collectors.toList());
-						for (Method method : allowMethod) {
-							AuthTypeAnnotation annotation = method.getAnnotation(AuthTypeAnnotation.class);
-							String value = annotation.value();
-							String key = clazz.getSimpleName() + "/" + method.getName();
-							authMap.put(key, value);
-						}
-					}
-
-				}
-			}
-		} catch (IOException | ClassNotFoundException e) {
-			System.out.println("读取class失败v :" + e);
-		}
-	}
 	@PostConstruct
 	private void initMethod(){
 		RequestMappingHandlerMapping mapping=applicationContext.getBean(RequestMappingHandlerMapping.class);
