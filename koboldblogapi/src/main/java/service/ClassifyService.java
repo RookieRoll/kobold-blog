@@ -1,6 +1,6 @@
 package service;
 
-import dto.ClassifyDto;
+import dto.dtos.ClassifyDto;
 
 import java.util.List;
 

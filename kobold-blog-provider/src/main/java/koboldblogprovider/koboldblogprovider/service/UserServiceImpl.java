@@ -1,6 +1,6 @@
 package koboldblogprovider.koboldblogprovider.service;
 
-import dto.UserDto;
+import dto.dtos.UserDto;
 import koboldblogprovider.koboldblogprovider.dao.User;
 import koboldblogprovider.koboldblogprovider.mapper.UserMapper;
 import org.apache.dubbo.config.annotation.Service;

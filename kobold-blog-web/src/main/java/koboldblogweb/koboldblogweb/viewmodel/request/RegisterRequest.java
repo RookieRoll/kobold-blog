@@ -1,7 +1,7 @@
 package koboldblogweb.koboldblogweb.viewmodel.request;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import dto.UserDto;
+import dto.dtos.UserDto;
 
 import javax.validation.constraints.NotBlank;
 import java.sql.Date;

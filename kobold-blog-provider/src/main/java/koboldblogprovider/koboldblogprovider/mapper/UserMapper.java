@@ -9,7 +9,6 @@ import java.util.UUID;
 /**
  * @author RWX
  */
-@Mapper
 public interface UserMapper {
 	List<User> getUsers();
 	User findbyUsername(String username);

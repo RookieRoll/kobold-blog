@@ -19,6 +19,7 @@ public class ClassifyController {
     private UserUtils userUtils;
 
     @PostMapping("/insert")
+    @AuthTypeAnnotation("Admin")
     public CommonResponse<?> insertClassify(@RequestBody ClassifyModifyRequest request) {
         classifyService.insertClassify(request.convertToDto(userUtils.getUserId()));
         return CommonResponse.ok(true);
@@ -37,17 +38,20 @@ public class ClassifyController {
     }
 
     @PostMapping("/getclassifybyid")
+    @AuthTypeAnnotation("Admin")
     public CommonResponse<?> getClassifyById(@RequestBody String id) {
         return CommonResponse.ok(classifyService.getClassifyById(id, userUtils.getUserId()));
     }
 
     @PostMapping("/stop")
+    @AuthTypeAnnotation("Admin")
     public CommonResponse<?> stopClassifyById(@RequestBody ClassifyStatusRequest request) {
         classifyService.stopClassifyById(request.isStopped(), request.getId(), userUtils.getUserId());
         return CommonResponse.ok(true);
     }
 
     @PostMapping("/delete")
+    @AuthTypeAnnotation("Admin")
     public CommonResponse<?> deleteClassify(@RequestBody String id) {
         classifyService.deleteClassifyById(userUtils.getUserId(), id);
         return CommonResponse.ok(true);

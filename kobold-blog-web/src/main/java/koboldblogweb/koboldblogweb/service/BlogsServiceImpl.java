@@ -1,7 +1,7 @@
 package koboldblogweb.koboldblogweb.service;
 
-import dto.BlogStatus;
-import dto.BlogsDto;
+import dto.dtos.BlogStatus;
+import dto.dtos.BlogsDto;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Service;
 import service.BlogService;
@@ -24,7 +24,7 @@ public class BlogsServiceImpl implements BlogService {
 	}
 
 	@Override
-	public void updateBlogsStatus(String id, String userId, String blogStatus) {
+	public void updateBlogsStatus(String id, String userId, BlogStatus blogStatus) {
 		blogService.updateBlogsStatus(id, userId, blogStatus);
 	}
 

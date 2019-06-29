@@ -1,6 +1,6 @@
 package koboldblogweb.koboldblogweb.service;
 
-import dto.UserDto;
+import dto.dtos.UserDto;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;

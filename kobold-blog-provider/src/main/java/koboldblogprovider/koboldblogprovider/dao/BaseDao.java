@@ -1,7 +1,6 @@
 package koboldblogprovider.koboldblogprovider.dao;
 
-import dto.BaseDto;
-import dto.BlogsDto;
+import dto.dtos.BaseDto;
 import utils.BeanMapperUtils;
 
 public class BaseDao {

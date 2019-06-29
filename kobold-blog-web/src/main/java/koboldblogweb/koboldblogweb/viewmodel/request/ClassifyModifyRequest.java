@@ -1,6 +1,6 @@
 package koboldblogweb.koboldblogweb.viewmodel.request;
 
-import dto.ClassifyDto;
+import dto.dtos.ClassifyDto;
 import utils.BeanMapperUtils;
 
 import javax.validation.constraints.NotBlank;

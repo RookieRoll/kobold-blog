@@ -1,6 +1,6 @@
 package koboldblogweb.koboldblogweb.controller;
 
-import dto.UserDto;
+import dto.dtos.UserDto;
 import io.swagger.annotations.Api;
 import koboldblogweb.koboldblogweb.utils.JwtTokenUtil;
 import koboldblogweb.koboldblogweb.service.JwtUserDetailsService;

@@ -1,8 +1,6 @@
 package koboldblogprovider.koboldblogprovider.dao;
 
-import utils.BeanMapperUtils;
-import dto.BlogStatus;
-import dto.BlogsDto;
+import dto.dtos.BlogStatus;
 
 import java.sql.Timestamp;
 

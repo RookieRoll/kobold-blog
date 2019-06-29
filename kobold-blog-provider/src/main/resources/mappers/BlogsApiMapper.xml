@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="koboldblogprovider.koboldblogprovider.mapper.BlogsApiMapper">
+    <resultMap id="blogsResult" type="koboldblogprovider.koboldblogprovider.dao.Blogs">
+        <result column="id" property="id"/>
+        <result column="title" property="title"/>
+        <result column="content" property="content"/>
+        <result column="sub_content" property="subContent"/>
+        <result column="create_time" property="createTime"/>
+        <result column="blog_status" property="blogStatus"/>
+        <result column="modify_time" property="modifyTime"/>
+        <result column="is_deleted" property="isDeleted"/>
+        <result column="user_id" property="userId"/>
+    </resultMap>
+
+    <select id="getBlogs" resultMap="blogsResult">
+        select * from blogs where blog_status=1 and is_deleted=false order by modify_time desc
+    </select>
+
+    <select id="getBlogsByClassify" resultMap="blogsResult">
+        select b.* from blogs b INNER JOIN classify_blogs cb on cb.blogid = b.id where cb.classifyid=#{classifyid} order by b.modify_time desc
+    </select>
+
+    <select id="getBlog" resultMap="blogsResult">
+        select * from blogs where id=#{id} and is_deleted=false
+    </select>
+
+</mapper>

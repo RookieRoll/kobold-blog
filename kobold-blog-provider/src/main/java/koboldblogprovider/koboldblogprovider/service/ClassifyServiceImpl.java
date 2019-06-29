@@ -1,6 +1,6 @@
 package koboldblogprovider.koboldblogprovider.service;
 
-import dto.ClassifyDto;
+import dto.dtos.ClassifyDto;
 import koboldblogprovider.koboldblogprovider.dao.Classify;
 import koboldblogprovider.koboldblogprovider.mapper.ClassifyMapper;
 import org.apache.dubbo.config.annotation.Service;

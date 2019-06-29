@@ -1,6 +1,6 @@
 package koboldblogprovider.koboldblogprovider.mapper;
 
-import dto.BlogStatus;
+import dto.dtos.BlogStatus;
 import koboldblogprovider.koboldblogprovider.dao.Blogs;
 
 import java.util.List;
@@ -16,7 +16,7 @@ public interface BlogsMapper {
 
 	List<Blogs> getByClassifyId(String userId,String classifyid);
 
-	void updateBlogsStatus(String id,String userId,String blogStatus);
+	void updateBlogsStatus(String id,String userId,BlogStatus blogStatus);
 	void deleteBlogs(String id,boolean isDeleted,String userId);
 	void insertBlog(Blogs blog);
 	void updateBlog(Blogs blogs);

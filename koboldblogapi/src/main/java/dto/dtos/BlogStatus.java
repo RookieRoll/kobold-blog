@@ -1,4 +1,4 @@
-package dto;
+package dto.dtos;
 
 public enum BlogStatus{
 

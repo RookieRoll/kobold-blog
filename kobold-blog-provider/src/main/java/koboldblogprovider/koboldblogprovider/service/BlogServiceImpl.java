@@ -1,7 +1,7 @@
 package koboldblogprovider.koboldblogprovider.service;
 
-import dto.BlogStatus;
-import dto.BlogsDto;
+import dto.dtos.BlogStatus;
+import dto.dtos.BlogsDto;
 import koboldblogprovider.koboldblogprovider.dao.Blogs;
 import koboldblogprovider.koboldblogprovider.mapper.BlogsMapper;
 import org.apache.dubbo.config.annotation.Service;
@@ -28,7 +28,7 @@ public class BlogServiceImpl implements BlogService {
 	}
 
 	@Override
-	public void updateBlogsStatus(String id, String userId, String blogStatus) {
+	public void updateBlogsStatus(String id, String userId, BlogStatus blogStatus) {
 		blogsMapper.updateBlogsStatus(id, userId, blogStatus);
 	}
 

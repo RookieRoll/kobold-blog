@@ -1,6 +1,6 @@
 package service;
 
-import dto.UserDto;
+import dto.dtos.UserDto;
 
 import java.util.List;
 

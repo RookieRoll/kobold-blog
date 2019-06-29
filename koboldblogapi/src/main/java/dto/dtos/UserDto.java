@@ -1,8 +1,6 @@
-package dto;
+package dto.dtos;
 
-import java.io.Serializable;
 import java.sql.Timestamp;
-import java.util.UUID;
 
 public class UserDto extends  BaseDto {
 	private String id;

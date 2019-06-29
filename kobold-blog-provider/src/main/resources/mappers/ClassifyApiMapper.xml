@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="koboldblogprovider.koboldblogprovider.mapper.ClassifyApiMapper">
+    <resultMap id="classifyResult" type="koboldblogprovider.koboldblogprovider.dao.Classify">
+        <result column="id" property="id"/>
+        <result column="classify_name" property="classifyName"/>
+        <result column="sort" property="sort"/>
+        <result column="create_time" property="createTime"/>
+        <result column="is_deleted" property="isDeleted"/>
+        <result column="is_stopped" property="isStopped"/>
+        <result column="user_id" property="userId"/>
+    </resultMap>
+
+    <select id="getClassifies" resultMap="classifyResult">
+        select * from classify where is_deleted=false and is_stopped=false order by sort asc ,create_time desc
+    </select>
+</mapper>

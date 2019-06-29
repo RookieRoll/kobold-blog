@@ -1,7 +1,6 @@
 package koboldblogweb.koboldblogweb.service;
 
-import dto.UserDto;
-import org.apache.dubbo.config.annotation.Reference;
+import dto.dtos.UserDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
