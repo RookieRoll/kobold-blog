@@ -24,14 +24,14 @@ public class ClassifyServiceImpl implements ClassifyService {
 
 	@Override
 	@Cacheable("getUsedClassify")
-	public List<ClassifyDto> getUsedClassify(String userId) {
-		return classifyService.getUsedClassify(userId);
+	public List<ClassifyDto> getUsedClassify(String userId,int pageIndex,int pageSize) {
+		return classifyService.getUsedClassify(userId,pageIndex,pageSize);
 	}
 
 	@Override
 	@Cacheable("getAllClassify")
-	public List<ClassifyDto> getAllClassify(String userId) {
-		return classifyService.getAllClassify(userId);
+	public List<ClassifyDto> getAllClassify(String userId,int pageIndex,int pageSize) {
+		return classifyService.getAllClassify(userId,pageIndex,pageSize);
 	}
 
 	@Override

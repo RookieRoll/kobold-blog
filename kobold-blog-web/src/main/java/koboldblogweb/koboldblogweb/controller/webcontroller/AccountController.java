@@ -1,4 +1,4 @@
-package koboldblogweb.koboldblogweb.controller;
+package koboldblogweb.koboldblogweb.controller.webcontroller;
 
 import dto.dtos.UserDto;
 import io.swagger.annotations.Api;

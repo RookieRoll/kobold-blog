@@ -1,5 +1,6 @@
 package koboldblogprovider.koboldblogprovider.service;
 
+import com.github.pagehelper.PageHelper;
 import dto.dtos.BlogStatus;
 import dto.dtos.BlogsDto;
 import koboldblogprovider.koboldblogprovider.dao.Blogs;
@@ -18,12 +19,14 @@ public class BlogServiceImpl implements BlogService {
 	private BlogsMapper blogsMapper;
 
 	@Override
-	public List<BlogsDto> getBlogsByStatus(String userId, BlogStatus blogstatus) {
+	public List<BlogsDto> getBlogsByStatus(String userId, BlogStatus blogstatus,int pageIndex,int pageSize) {
+		PageHelper.startPage(pageIndex,pageSize);
 		return blogsMapper.getBlogsByStatus(userId, blogstatus).stream().map(m -> (BlogsDto) m.convertToDto(BlogsDto.class)).collect(Collectors.toList());
 	}
 
 	@Override
-	public List<BlogsDto> getByClassifyId(String userId, String classifyid) {
+	public List<BlogsDto> getByClassifyId(String userId, String classifyid,int pageIndex,int pageSize) {
+		PageHelper.startPage(pageIndex,pageSize);
 		return blogsMapper.getByClassifyId(userId, classifyid).stream().map(m -> (BlogsDto) m.convertToDto(BlogsDto.class)).collect(Collectors.toList());
 	}
 

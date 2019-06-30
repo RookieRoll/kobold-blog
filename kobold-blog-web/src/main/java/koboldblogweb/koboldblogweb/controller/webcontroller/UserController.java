@@ -1,4 +1,4 @@
-package koboldblogweb.koboldblogweb.controller;
+package koboldblogweb.koboldblogweb.controller.webcontroller;
 
 import koboldblogweb.koboldblogweb.viewmodel.response.CommonResponse;
 import org.springframework.beans.factory.annotation.Autowired;

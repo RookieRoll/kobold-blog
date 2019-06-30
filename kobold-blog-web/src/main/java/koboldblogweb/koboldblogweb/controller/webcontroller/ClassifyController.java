@@ -1,9 +1,10 @@
-package koboldblogweb.koboldblogweb.controller;
+package koboldblogweb.koboldblogweb.controller.webcontroller;
 
 import koboldblogweb.koboldblogweb.annotations.AuthTypeAnnotation;
 import koboldblogweb.koboldblogweb.utils.UserUtils;
-import koboldblogweb.koboldblogweb.viewmodel.request.ClassifyModifyRequest;
-import koboldblogweb.koboldblogweb.viewmodel.request.ClassifyStatusRequest;
+import koboldblogweb.koboldblogweb.viewmodel.request.PagerInfoModel;
+import koboldblogweb.koboldblogweb.viewmodel.request.classifies.ClassifyModifyRequest;
+import koboldblogweb.koboldblogweb.viewmodel.request.classifies.ClassifyStatusRequest;
 import koboldblogweb.koboldblogweb.viewmodel.response.CommonResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -27,14 +28,14 @@ public class ClassifyController {
 
     @GetMapping("/getclassify")
     @AuthTypeAnnotation("Admin")
-    public CommonResponse<?> getUsedClassify() {
-        return CommonResponse.ok(classifyService.getUsedClassify(userUtils.getUserId()));
+    public CommonResponse<?> getUsedClassify(@RequestBody PagerInfoModel requestModel) {
+        return CommonResponse.ok(classifyService.getUsedClassify(userUtils.getUserId(), requestModel.getPageIndex(), requestModel.getPageeSize()));
     }
 
     @GetMapping("/getallClassifies")
     @AuthTypeAnnotation("Admin")
-    public CommonResponse<?> getAllClassify() {
-        return CommonResponse.ok(classifyService.getAllClassify(userUtils.getUserId()));
+    public CommonResponse<?> getAllClassify(@RequestBody PagerInfoModel requestModel) {
+        return CommonResponse.ok(classifyService.getAllClassify(userUtils.getUserId(), requestModel.getPageIndex(), requestModel.getPageeSize()));
     }
 
     @PostMapping("/getclassifybyid")

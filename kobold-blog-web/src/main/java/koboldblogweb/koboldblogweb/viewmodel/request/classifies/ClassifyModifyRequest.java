@@ -1,4 +1,4 @@
-package koboldblogweb.koboldblogweb.viewmodel.request;
+package koboldblogweb.koboldblogweb.viewmodel.request.classifies;
 
 import dto.dtos.ClassifyDto;
 import utils.BeanMapperUtils;

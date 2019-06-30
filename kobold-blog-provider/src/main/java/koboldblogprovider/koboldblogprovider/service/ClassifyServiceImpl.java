@@ -1,5 +1,6 @@
 package koboldblogprovider.koboldblogprovider.service;
 
+import com.github.pagehelper.PageHelper;
 import dto.dtos.ClassifyDto;
 import koboldblogprovider.koboldblogprovider.dao.Classify;
 import koboldblogprovider.koboldblogprovider.mapper.ClassifyMapper;
@@ -32,12 +33,14 @@ public class ClassifyServiceImpl implements ClassifyService {
 	}
 
 	@Override
-	public List<ClassifyDto> getUsedClassify(String userId) {
+	public List<ClassifyDto> getUsedClassify(String userId,int pageIndex,int pageSize) {
+		PageHelper.startPage(pageIndex,pageSize);
 		return classifyMapper.getUsedClassify(userId).stream().map(m -> (ClassifyDto) m.convertToDto(ClassifyDto.class)).collect(Collectors.toList());
 	}
 
 	@Override
-	public List<ClassifyDto> getAllClassify(String userId) {
+	public List<ClassifyDto> getAllClassify(String userId,int pageIndex,int pageSize) {
+		PageHelper.startPage(pageIndex,pageSize);
 		return classifyMapper.getAllClassify(userId).stream().map(m -> (ClassifyDto) m.convertToDto(ClassifyDto.class)).collect(Collectors.toList());
 	}
 

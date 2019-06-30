@@ -14,13 +14,13 @@ public class BlogsServiceImpl implements BlogService {
 	private BlogService blogService;
 
 	@Override
-	public List<BlogsDto> getBlogsByStatus(String userId, BlogStatus blogstatus) {
-		return blogService.getBlogsByStatus(userId, blogstatus);
+	public List<BlogsDto> getBlogsByStatus(String userId, BlogStatus blogstatus,int pageIndex,int pageSize) {
+		return blogService.getBlogsByStatus(userId, blogstatus,pageIndex,pageSize);
 	}
 
 	@Override
-	public List<BlogsDto> getByClassifyId(String userId, String classifyid) {
-		return blogService.getByClassifyId(userId, classifyid);
+	public List<BlogsDto> getByClassifyId(String userId, String classifyid,int pageIndex,int pageSize) {
+		return blogService.getByClassifyId(userId, classifyid,pageIndex,pageSize);
 	}
 
 	@Override
