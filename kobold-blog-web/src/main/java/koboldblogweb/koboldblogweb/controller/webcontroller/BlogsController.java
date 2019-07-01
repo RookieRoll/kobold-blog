@@ -38,7 +38,7 @@ public class BlogsController {
 	public CommonResponse<?> getByClassifyId(@RequestBody BlogByClassifyId classifyId) {
 		List<BlogsDto> source=blogService.getByClassifyId(userUtils.getUserId(), classifyId.getClassifyId(), classifyId.getPageIndex(), classifyId.getPageeSize());
 		List<BlogsListResponse> result=source.stream().map(m->BlogsListResponse.convertToViewModel(m)).collect(Collectors.toList());
-		return CommonResponse.ok(blogService.getByClassifyId(userUtils.getUserId(), classifyId.getClassifyId(), classifyId.getPageIndex(), classifyId.getPageeSize()));
+		return CommonResponse.ok(result);
 	}
 
 	@PostMapping("/insert")

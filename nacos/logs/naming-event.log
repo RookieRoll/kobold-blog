@@ -288,3 +288,11 @@
 
 2019-06-28 23:45:22,688 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@blog-provider, ips: 
 
+2019-07-01 17:07:37,588 INFO DEFAULT_GROUP@@blog-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.8.0.158:8090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-07-01 17:07:37,590 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@blog-provider, ips: 10.8.0.158:8090_true,
+
+2019-07-01 17:10:20,159 INFO DEFAULT_GROUP@@blog-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.8.0.158:8090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-07-01 17:10:20,159 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@blog-provider, ips: 
+
