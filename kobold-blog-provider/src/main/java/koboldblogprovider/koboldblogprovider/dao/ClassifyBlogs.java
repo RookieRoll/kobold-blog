@@ -6,7 +6,7 @@ public class ClassifyBlogs {
 
     private String id;
 
-    public ClassifyBlogs( String classifyId, String blogId) {
+    public ClassifyBlogs(String classifyId, String blogId) {
        this(UUID.randomUUID().toString(),classifyId,blogId);
     }
 

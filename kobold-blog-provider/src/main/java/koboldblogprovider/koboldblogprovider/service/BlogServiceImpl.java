@@ -55,7 +55,9 @@ public class BlogServiceImpl implements BlogService {
 		blog.setModifyTime(new Timestamp(System.currentTimeMillis()));
 		blogsMapper.insertBlog(blog);
 		List<ClassifyBlogs> classifyBlogs=new ArrayList<>();
-		classifyBlogs.add(new ClassifyBlogs(dto.getClassifyId(),dto.getId()));
+		dto.getClassifyId().forEach(m->{
+			classifyBlogs.add(new ClassifyBlogs(m,dto.getId()));
+		});
 		classifyMapper.insertClassifyBlogs(classifyBlogs);
 	}
 

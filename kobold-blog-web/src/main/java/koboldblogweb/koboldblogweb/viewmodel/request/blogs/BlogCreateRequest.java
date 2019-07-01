@@ -4,12 +4,14 @@ import dto.dtos.BlogStatus;
 import dto.dtos.BlogsDto;
 import utils.BeanMapperUtils;
 
+import java.util.List;
+
 public class BlogCreateRequest {
     private static final int SUB_CONTENT_SIZE=200;
     private String title;
     private String content;
     private BlogStatus blogStatus;
-    private String classifyId;
+    private List<String> classifyId;
 
     public String getTitle() {
         return title;
@@ -35,13 +37,6 @@ public class BlogCreateRequest {
         this.blogStatus = blogStatus;
     }
 
-    public String getClassifyId() {
-        return classifyId;
-    }
-
-    public void setClassifyId(String classifyId) {
-        this.classifyId = classifyId;
-    }
 
     public BlogsDto convertToDto(String userId){
         BlogsDto dto= BeanMapperUtils.mapper(this,BlogsDto.class);
@@ -52,4 +47,11 @@ public class BlogCreateRequest {
         return dto;
     }
 
+    public List<String> getClassifyId() {
+        return classifyId;
+    }
+
+    public void setClassifyId(List<String> classifyId) {
+        this.classifyId = classifyId;
+    }
 }
