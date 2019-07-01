@@ -11,7 +11,7 @@
  Target Server Version : 80015
  File Encoding         : 65001
 
- Date: 28/06/2019 14:06:43
+ Date: 01/07/2019 09:52:45
 */
 
 SET NAMES utf8mb4;
@@ -50,6 +50,17 @@ CREATE TABLE `classify`  (
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
+-- Table structure for classifyblogs
+-- ----------------------------
+DROP TABLE IF EXISTS `classifyblogs`;
+CREATE TABLE `classifyblogs`  (
+  `id` int(11) NOT NULL,
+  `classify_id` int(11) NULL DEFAULT NULL,
+  `blog_id` int(11) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
 -- Table structure for user
 -- ----------------------------
 DROP TABLE IF EXISTS `user`;
@@ -65,3 +76,4 @@ CREATE TABLE `user`  (
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
 
 SET FOREIGN_KEY_CHECKS = 1;
+

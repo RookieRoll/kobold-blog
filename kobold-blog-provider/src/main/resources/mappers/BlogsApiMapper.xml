@@ -18,7 +18,7 @@
     </select>
 
     <select id="getBlogsByClassify" resultMap="blogsResult">
-        select b.* from blogs b INNER JOIN classify_blogs cb on cb.blogid = b.id where cb.classifyid=#{classifyid} order by b.modify_time desc
+        select b.* from blogs b INNER JOIN classify_blogs cb on cb.blog_id = b.id where cb.classify_id=#{classifyid} order by b.modify_time desc
     </select>
 
     <select id="getBlog" resultMap="blogsResult">

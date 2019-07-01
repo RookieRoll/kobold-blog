@@ -1,6 +1,7 @@
 package dto.dtos;
 
 import java.sql.Timestamp;
+import java.util.List;
 
 public class BlogsDto extends BaseDto {
 	private String id;
@@ -12,6 +13,8 @@ public class BlogsDto extends BaseDto {
 	private Timestamp modifyTime;
 	private boolean isDeleted;
 	private String userId;
+
+	private List<String> classifyId;
 
 	public String getId() {
 		return id;
@@ -84,5 +87,14 @@ public class BlogsDto extends BaseDto {
 
 	public void setUserId(String userId) {
 		this.userId = userId;
+	}
+
+
+	public List<String> getClassifyId() {
+		return classifyId;
+	}
+
+	public void setClassifyId(List<String> classifyId) {
+		this.classifyId = classifyId;
 	}
 }

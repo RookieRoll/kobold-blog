@@ -4,12 +4,16 @@ import com.github.pagehelper.PageHelper;
 import dto.dtos.BlogStatus;
 import dto.dtos.BlogsDto;
 import koboldblogprovider.koboldblogprovider.dao.Blogs;
+import koboldblogprovider.koboldblogprovider.dao.ClassifyBlogs;
 import koboldblogprovider.koboldblogprovider.mapper.BlogsMapper;
+import koboldblogprovider.koboldblogprovider.mapper.ClassifyMapper;
 import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import service.BlogService;
 
 import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
@@ -17,6 +21,8 @@ import java.util.stream.Collectors;
 public class BlogServiceImpl implements BlogService {
 	@Autowired
 	private BlogsMapper blogsMapper;
+	@Autowired
+	private ClassifyMapper classifyMapper;
 
 	@Override
 	public List<BlogsDto> getBlogsByStatus(String userId, BlogStatus blogstatus,int pageIndex,int pageSize) {
@@ -41,12 +47,16 @@ public class BlogServiceImpl implements BlogService {
 	}
 
 	@Override
+	@Transactional(rollbackFor = Exception.class)
 	public void insertBlog(BlogsDto dto) {
 		Blogs blog = (Blogs) Blogs.convertToDao(dto, Blogs.class);
 		blog.setId(UUID.randomUUID().toString());
 		blog.setCreateTime(new Timestamp(System.currentTimeMillis()));
 		blog.setModifyTime(new Timestamp(System.currentTimeMillis()));
 		blogsMapper.insertBlog(blog);
+		List<ClassifyBlogs> classifyBlogs=new ArrayList<>();
+		classifyBlogs.add(new ClassifyBlogs(dto.getClassifyId(),dto.getId()));
+		classifyMapper.insertClassifyBlogs(classifyBlogs);
 	}
 
 	@Override
